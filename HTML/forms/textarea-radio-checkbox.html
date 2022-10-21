@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Quiz </title>
+</head>
+<body>
+ <!-- Textarea/Radio/Checkbox -->
+ <form action="./server.html" method="get">
+    <p> 1. How many legs does a spider have? </p>
+    <br />
+    <label> 
+        <input type="radio" name="legs" value="4"> 4
+    </label>
+    <br />
+    <label>
+         <input type="radio" name="legs" value="6"> 6
+    </label>
+    <br />
+    <label>
+        <input type="radio" name="legs" value="8"> 8
+    </label>
+    <br />
+    <p> 2. Which parts of our body keep growing throughout our lives? </p>
+    <br />
+    <label>
+        <input type="checkbox" name="body" value="lips"> Lips
+    </label>    
+    <br />
+    <label>
+        <input type="checkbox" name="body" value="ears"> Ears
+    </label>
+    <br />
+    <label>
+        <input type="checkbox" name="body" value="nose"> Nose
+    </label>   
+    <br />
+    <p> 3. Write an essay about climate change. </p> 
+    <textarea name="essay" cols="30" rows="10" placeholder="Write here"></textarea>
+    <br />
+    <br />
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

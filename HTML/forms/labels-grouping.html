@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Catering reservations </title>
+    </head>
+    <body>
+        <!-- Labels/Grouping -->
+        <form action="./server.html" method="get">
+            <fieldset>
+                <legend> Personal data </legend>
+                <label>
+                    <p> Name:
+                        <input type="text" name="name" />
+                    </p>
+                </label>
+                <label>
+                    <p> Email address:
+                        <input type="email" name="email" />
+                    </p>
+                </label>
+                <label>
+                    <p> Phone number:
+                        <input type="number" name="number" />
+                    </p>
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend> Location
+                </legend>
+                <label>
+                    <p> City:
+                        <input type="text" name="city" />
+                    </p>
+                </label>
+                <label>
+                    <p> Street:
+                        <input type="text" name="street" />
+                    </p>
+                </label>
+                <label>
+                    <p> Street number:
+                        <input type="number" name="sn" />
+                    </p>
+                </label>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend> Event info </legend>
+                <label>
+                    <p> Choose option:
+                        <select name="event">
+                            <option value="birthday"> Birthday </option>
+                            <option value="wedding" selected> Wedding </option>
+                            <option value="company"> Company </option>
+                        </select>
+                    </p>
+                </label>
+                <label>
+                    <p> Number of expected quests:
+                        <input type="number" name="ng" placeholder="30">    
+                    </p>
+                </label>
+    
+            </fieldset>
+            <br />
+    <input type="submit" value="Finish">
+        </form>
+    </body>
+</html>
