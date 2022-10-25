@@ -1,0 +1,47 @@
+#a {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: dashed; 
+    border-color: red;
+    padding: 0px;
+    margin: 300px 20px 50px 50px;
+}
+#b {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+    padding: 0px;
+    margin: 400px 20px 400px 400px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#c {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+    padding: 0px;
+    margin: 200px 20px 200px 100px;
+    visibility: hidden;
+}
+
+.inline {
+    display: inline;
+}
+
+h1 {
+    width: 960px;
+    margin: auto;
+    text-align: center; 
+    padding: 50px 0px 50px 0px;
+    margin: 50px auto 50px auto;
+    background-color: blueviolet;
+    color: fuchsia;
+    font-family: cursive;
+    -webkit-box-shadow: 51px 53px 42px 14px rgba(207, 114, 184);
+    -moz-box-shadow: 51px 53px 42px 14px rgba(207, 114, 184);
+    box-shadow: 51px 53px 42px 14px rgb(207, 114, 184);
+    border-radius: 10px 50px 100px 200px;
+}

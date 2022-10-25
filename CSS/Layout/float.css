@@ -1,0 +1,9 @@
+li {
+    display: inline;
+    float: right;
+    background-color: brown;
+    color: white;
+}
+div {
+    width: 960px;
+}

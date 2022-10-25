@@ -1,0 +1,28 @@
+#first {
+    color: darkturquoise;
+    background-color: coral;
+    opacity: 50%;
+}
+#second {
+    color: rgba(0, 206, 209, 0.5);
+    background-color: bisque;
+}
+#third {
+    color: #00ced1;
+    background-color: hotpink;
+}
+.firc {
+    background-color: aliceblue;
+}
+.secc {
+    background-color: hotpink;
+}
+.thrc {
+    background-color: blueviolet;
+}
+.fouc {
+    background-color: brown;
+}
+.fifc {
+    background-color: cadetblue;
+}

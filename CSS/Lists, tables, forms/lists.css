@@ -1,0 +1,22 @@
+#fruit {
+    list-style-type: circle;
+}
+#vegetable {
+    list-style-type: square;
+}
+#drinks {
+    list-style-type: upper-alpha;
+}
+#alcohol {
+    list-style-type: lower-roman;
+}
+#dairy {
+    list-style-image: url(https://lpagencies.co.za/wp-content/uploads/2020/04/1190_lpproduct_753-300x300.jpg);
+    width: 200px;
+    list-style-position: inside;
+}
+#breads {
+    list-style-image: url(https://w7.pngwing.com/pngs/890/24/png-transparent-bread-hand-painted-bread-european-breads-large-column-pakistan-thumbnail.png);
+    width: 200px;
+    list-style-position: inside;
+}

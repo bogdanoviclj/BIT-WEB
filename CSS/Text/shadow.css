@@ -1,0 +1,18 @@
+ul {
+    color: aquamarine;
+}
+li {
+    text-shadow: 1px 1px;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: blue;
+}
