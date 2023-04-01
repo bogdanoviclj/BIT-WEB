@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: midnightblue;
+    }
+.button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 15px auto;
+    border-radius: 3px;
+}
+.bColor{
+    background-color: white;
+} 
+.offButton {
+    background-color: darkgoldenrod;
+}

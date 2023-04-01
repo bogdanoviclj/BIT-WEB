@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,GAAQ;EACJ,SAAS,EAAE,IAAa;;AAD5B,GAAQ;EACJ,SAAS,EAAE,IAAa;;AAD5B,GAAQ;EACJ,SAAS,EAAE,IAAa;;AAD5B,GAAQ;EACJ,SAAS,EAAE,IAAa",
+"sources": ["../sass/for.scss"],
+"names": [],
+"file": "for.css"
+}

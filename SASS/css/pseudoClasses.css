@@ -1,0 +1,12 @@
+li a {
+  text-decoration: none; }
+li a:active {
+  background-color: yellow; }
+li a:visited {
+  background-color: orange; }
+li a:link {
+  background-color: green; }
+li .important {
+  font-weight: bold; }
+
+/*# sourceMappingURL=pseudoClasses.css.map */

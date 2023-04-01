@@ -1,0 +1,59 @@
+nav, footer {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+ .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #18bc9c;
+    /* padding-top: 10%; */
+    color: white;
+} 
+.border {
+    width: 100%;
+    text-align: center;
+    border: none !important;
+}
+.line {
+    display: inline-block;
+    height: 20px;
+    width: 80px;
+    border-top: 3px solid;
+}
+.star {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 13px;
+}
+
+/* .col-4 img {
+    height: 200px;
+} */
+
+.about {
+    background-color: #18bc9c;
+}
+
+input, textarea {
+    color: #495057;
+}
+
+/* .location, .around, .details {
+    padding: 30px 0 20px 0;
+} */
+/* .logo li {
+    display: inline;
+} */
+
+
+img {
+    width: 80%;
+}

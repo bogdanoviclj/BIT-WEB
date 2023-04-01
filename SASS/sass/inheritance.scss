@@ -1,0 +1,19 @@
+.border {
+    border: 2px solid;
+}
+
+#first {
+    @extend .border;
+    border-color: red;
+    width: 100px / 960px * 100%;
+}
+#second {
+    @extend .border;
+    border-color: blue;
+    width: 300px / 960px * 100%;
+}
+#third {
+    @extend .border;
+    border-color: green;
+    width: 600px / 960px * 100%; 
+}

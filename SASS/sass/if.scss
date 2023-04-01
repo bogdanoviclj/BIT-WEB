@@ -1,0 +1,19 @@
+@mixin backgroundColor($i) {
+    @if $i == 1 {
+        background-color: red;
+    }
+    @else if $i == 2 {
+        background-color: yellow;
+    }
+    @else if $i == 3 {
+        background-color: green;
+    }
+    @else if $i == 4 {
+        background-color: blue;
+    }    
+}
+
+#p1 { @include backgroundColor(1) };
+#p2 { @include backgroundColor(2) };
+#p3 { @include backgroundColor(3) };
+#p4 { @include backgroundColor(4) };

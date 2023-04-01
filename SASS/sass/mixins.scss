@@ -1,0 +1,15 @@
+@mixin text-shadow($text) {
+    -webkit-text-shadow: $text;
+    -moz-text-shadow: $text;
+    -ms-text-shadow: $text;
+    text-shadow: $text;
+}
+#first { @include text-shadow(2px 2px #FF0000); }
+
+@mixin box-shadow($box) {
+    -webkit-box-shadow: $box;
+    -moz-box-shadow: $box;
+    -ms-box-shadow: $box;
+    box-shadow: $box;
+}
+#second { @include box-shadow(5px 10px #888888); }

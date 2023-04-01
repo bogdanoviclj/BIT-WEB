@@ -1,0 +1,13 @@
+.field {
+    background-size: contain;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+.player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

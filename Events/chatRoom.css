@@ -1,0 +1,20 @@
+.container{
+    height: 100vh;
+}
+.sentArea{
+    height: 75%;
+}
+.input{
+    width: 600px;
+    height: 20px;
+}
+.textInput{
+    width: 300px;
+}
+.button{
+    background-color: firebrick;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    width: 20%;
+}

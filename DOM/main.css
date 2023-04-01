@@ -1,0 +1,16 @@
+.bgColor {
+    background-color: lightcoral;
+}
+
+.liColor {
+    background-color: lightgreen;
+}
+
+.transform {
+    background-color: lightskyblue;
+    text-transform: uppercase;
+}
+
+.active {
+    background-color: lightsalmon;
+}

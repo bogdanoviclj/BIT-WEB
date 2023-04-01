@@ -1,0 +1,16 @@
+.border, #first, #second, #third {
+  border: 2px solid; }
+
+#first {
+  border-color: red;
+  width: 10.4166666667%; }
+
+#second {
+  border-color: blue;
+  width: 31.25%; }
+
+#third {
+  border-color: green;
+  width: 62.5%; }
+
+/*# sourceMappingURL=inheritance.css.map */
